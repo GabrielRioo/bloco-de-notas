@@ -7,3 +7,12 @@ C:\Gabrieltmp\EstudoWinForm\obj\Debug\EstudoWinForm.Properties.Resources.resourc
 C:\Gabrieltmp\EstudoWinForm\obj\Debug\EstudoWinForm.csproj.GenerateResource.cache
 C:\Gabrieltmp\EstudoWinForm\obj\Debug\EstudoWinForm.exe
 C:\Gabrieltmp\EstudoWinForm\obj\Debug\EstudoWinForm.pdb
+C:\Gabrieltmp\GitHub\EstudoWinForm\bin\Debug\EstudoWinForm.exe.config
+C:\Gabrieltmp\GitHub\EstudoWinForm\bin\Debug\EstudoWinForm.exe
+C:\Gabrieltmp\GitHub\EstudoWinForm\bin\Debug\EstudoWinForm.pdb
+C:\Gabrieltmp\GitHub\EstudoWinForm\obj\Debug\EstudoWinForm.csprojAssemblyReference.cache
+C:\Gabrieltmp\GitHub\EstudoWinForm\obj\Debug\EstudoWinForm.Inicio.resources
+C:\Gabrieltmp\GitHub\EstudoWinForm\obj\Debug\EstudoWinForm.Properties.Resources.resources
+C:\Gabrieltmp\GitHub\EstudoWinForm\obj\Debug\EstudoWinForm.csproj.GenerateResource.cache
+C:\Gabrieltmp\GitHub\EstudoWinForm\obj\Debug\EstudoWinForm.exe
+C:\Gabrieltmp\GitHub\EstudoWinForm\obj\Debug\EstudoWinForm.pdb

@@ -30,11 +30,13 @@
 		{
 			this.menuStrip1 = new System.Windows.Forms.MenuStrip();
 			this.arquivoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-			this.editarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
 			this.abrirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
 			this.salvarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
 			this.sairToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+			this.editarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
 			this.txbJanela = new System.Windows.Forms.TextBox();
+			this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
+			this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
 			this.menuStrip1.SuspendLayout();
 			this.SuspendLayout();
 			// 
@@ -59,29 +61,31 @@
 			this.arquivoToolStripMenuItem.Size = new System.Drawing.Size(61, 20);
 			this.arquivoToolStripMenuItem.Text = "Arquivo";
 			// 
-			// editarToolStripMenuItem
-			// 
-			this.editarToolStripMenuItem.Name = "editarToolStripMenuItem";
-			this.editarToolStripMenuItem.Size = new System.Drawing.Size(49, 20);
-			this.editarToolStripMenuItem.Text = "Editar";
-			// 
 			// abrirToolStripMenuItem
 			// 
 			this.abrirToolStripMenuItem.Name = "abrirToolStripMenuItem";
 			this.abrirToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
 			this.abrirToolStripMenuItem.Text = "Abrir";
+			this.abrirToolStripMenuItem.Click += new System.EventHandler(this.AbrirArquivo);
 			// 
 			// salvarToolStripMenuItem
 			// 
 			this.salvarToolStripMenuItem.Name = "salvarToolStripMenuItem";
 			this.salvarToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
 			this.salvarToolStripMenuItem.Text = "Salvar";
+			this.salvarToolStripMenuItem.Click += new System.EventHandler(this.SalvarClick);
 			// 
 			// sairToolStripMenuItem
 			// 
 			this.sairToolStripMenuItem.Name = "sairToolStripMenuItem";
 			this.sairToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
 			this.sairToolStripMenuItem.Text = "Sair";
+			// 
+			// editarToolStripMenuItem
+			// 
+			this.editarToolStripMenuItem.Name = "editarToolStripMenuItem";
+			this.editarToolStripMenuItem.Size = new System.Drawing.Size(49, 20);
+			this.editarToolStripMenuItem.Text = "Editar";
 			// 
 			// txbJanela
 			// 
@@ -90,6 +94,15 @@
 			this.txbJanela.Name = "txbJanela";
 			this.txbJanela.Size = new System.Drawing.Size(776, 411);
 			this.txbJanela.TabIndex = 1;
+			// 
+			// saveFileDialog1
+			// 
+			this.saveFileDialog1.FileOk += new System.ComponentModel.CancelEventHandler(this.SalvarOk);
+			// 
+			// openFileDialog1
+			// 
+			this.openFileDialog1.FileName = "openFileDialog1";
+			this.openFileDialog1.FileOk += new System.ComponentModel.CancelEventHandler(this.AbrirOk);
 			// 
 			// Inicio
 			// 
@@ -117,6 +130,8 @@
 		private System.Windows.Forms.ToolStripMenuItem sairToolStripMenuItem;
 		private System.Windows.Forms.ToolStripMenuItem editarToolStripMenuItem;
 		private System.Windows.Forms.TextBox txbJanela;
+		private System.Windows.Forms.SaveFileDialog saveFileDialog1;
+		private System.Windows.Forms.OpenFileDialog openFileDialog1;
 	}
 }
 

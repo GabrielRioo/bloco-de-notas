@@ -1,0 +1,9 @@
+C:\Gabrieltmp\EstudoWinForm\bin\Debug\EstudoWinForm.exe.config
+C:\Gabrieltmp\EstudoWinForm\bin\Debug\EstudoWinForm.exe
+C:\Gabrieltmp\EstudoWinForm\bin\Debug\EstudoWinForm.pdb
+C:\Gabrieltmp\EstudoWinForm\obj\Debug\EstudoWinForm.csprojAssemblyReference.cache
+C:\Gabrieltmp\EstudoWinForm\obj\Debug\EstudoWinForm.Inicio.resources
+C:\Gabrieltmp\EstudoWinForm\obj\Debug\EstudoWinForm.Properties.Resources.resources
+C:\Gabrieltmp\EstudoWinForm\obj\Debug\EstudoWinForm.csproj.GenerateResource.cache
+C:\Gabrieltmp\EstudoWinForm\obj\Debug\EstudoWinForm.exe
+C:\Gabrieltmp\EstudoWinForm\obj\Debug\EstudoWinForm.pdb
